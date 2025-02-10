@@ -1,0 +1,8 @@
+prefix=/home/robot/PycharmProjects/realsense/catkin_ws/install
+
+Name: aos_moveit
+Description: Description of aos_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

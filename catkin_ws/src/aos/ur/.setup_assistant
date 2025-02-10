@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ""
+    relative_path: /home/robot/PycharmProjects/realsense/catkin_ws/src/urdf2/ur3e.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ur3e_robot.srdf
+  CONFIG:
+    author_name: haejun
+    author_email: haejunpak@naver.com
+    generated_timestamp: 1735563416
