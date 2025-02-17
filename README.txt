@@ -6,7 +6,7 @@ roslaunch moveit_setup_assistant setup_assistant.launch
 roslaunch ur3e_moveit_config moveit_planning_execution.launch
 roslaunch ur3e_moveit_config moveit_rviz.launch
 rosrun rosserial_python serial_node.py /dev/ttyACM0
-roslaunch test pose1.launch
+roslaunch control pose1.launch
 rosrun robot_state_publisher robot_state_publisher $(rospack find ur_description)/urdf/test_ur3e.urdf
 
 
