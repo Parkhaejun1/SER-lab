@@ -1,0 +1,10 @@
+<launch>
+  <!-- Define tool1 relative to tool0 -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="tool0_to_tool1_broadcaster"
+        args="0 0 0.04 0 0 0 1 tool0 tool1" />
+
+  <!-- Define camera_color_optical_frame relative to tool0 -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="camera_link_broadcaster"
+        args="-0.0309928 0.04142 -0.03 0.00962063 0.00225575 -0.00978338 0.999903 tool1 camera_color_optical_frame" />
+</launch>
+

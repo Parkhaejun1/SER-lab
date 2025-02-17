@@ -1,0 +1,6 @@
+<launch>
+  <!-- tool0에서 Z축으로 +0.06m 이동한 tool1 변환 -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="tool0_to_tool1_broadcaster"
+        args="0 0 0.06 0 0 0 1 tool0 tool1" />
+</launch>
+
