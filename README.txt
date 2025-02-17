@@ -13,10 +13,10 @@ rosrun robot_state_publisher robot_state_publisher $(rospack find ur_description
 
 #Script nodes
 
-rosrun test object_detect_node.py
-rosrun test robot_control_node.py
-rosrun test marker_extract_node.py
-rosrun test point_cloud_extract_node.py
+rosrun control object_detect_node.py
+rosrun control robot_control_node.py
+rosrun control marker_extract_node.py
+rosrun control point_cloud_extract_node.py
 
 
 
